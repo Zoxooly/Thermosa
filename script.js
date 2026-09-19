@@ -1,15 +1,9 @@
-let button = document.getElementById("secretButton");
-
-button.onclick = function() {
-    alert("test works");
-};
-
-let password = document.getElementById("password");
+let code = document.getElementById("code");
 let submit = document.getElementById("submit");
 let response = document.getElementById("response");
 
 submit.onclick = function() {
-    if (password.value == "THERMOSA") {
+    if (code.value == "th3Vf2Q1Lxmk4K") {
         response.textContent = "ACCESS GRANTED.";
     } else {
         response.textContent = "ACCESS DENIED.";
