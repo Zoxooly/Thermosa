@@ -1,9 +1,10 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: gray;
+    color: green;
     font-family: monospace;
 }
 
 h1 {
-    color: red;
+    background-color: black;
+    color: white;
 }
